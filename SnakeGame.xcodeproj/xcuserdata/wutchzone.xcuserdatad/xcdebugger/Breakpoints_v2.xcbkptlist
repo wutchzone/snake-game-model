@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnakeGame/src/SnakeGame.cpp"
+            timestampString = "550564724.199443"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "SnakeGame::SnakeGame(int xSize, int ySize, float tickInterval)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnakeGame::SnakeGame(int, int, float)"
+                  moduleName = "SnakeGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wutchzone/Desktop/My%20Apps/SnakeGame/SnakeGame/src/SnakeGame.cpp"
+                  timestampString = "550564724.522769"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnakeGame::SnakeGame(int, int, float)"
+                  moduleName = "SnakeGame"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wutchzone/Desktop/My%20Apps/SnakeGame/SnakeGame/src/SnakeGame.cpp"
+                  timestampString = "550564724.525277"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74B7A38B20D04D20003253CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74B7A38A20D04D20003253CC /* main.cpp */; };
+		74B7A38B20D04D20003253CC /* start.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74B7A38A20D04D20003253CC /* start.cpp */; };
+		74B7A39C20D04F55003253CC /* SnakeGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74B7A39420D04D8A003253CC /* SnakeGame.cpp */; };
+		74B7A39D20D050DA003253CC /* SnakeGameItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74B7A39620D04D8A003253CC /* SnakeGameItem.cpp */; };
+		74B7A39E20D0F201003253CC /* SnakePart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74B7A39520D04D8A003253CC /* SnakePart.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,13 @@
 
 /* Begin PBXFileReference section */
 		74B7A38720D04D20003253CC /* SnakeGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SnakeGame; sourceTree = BUILT_PRODUCTS_DIR; };
-		74B7A38A20D04D20003253CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		74B7A38A20D04D20003253CC /* start.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = start.cpp; sourceTree = "<group>"; };
+		74B7A39320D04D8A003253CC /* SnakeGameItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeGameItem.h; sourceTree = "<group>"; };
+		74B7A39420D04D8A003253CC /* SnakeGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SnakeGame.cpp; sourceTree = "<group>"; };
+		74B7A39520D04D8A003253CC /* SnakePart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SnakePart.cpp; sourceTree = "<group>"; };
+		74B7A39620D04D8A003253CC /* SnakeGameItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SnakeGameItem.cpp; sourceTree = "<group>"; };
+		74B7A39720D04D8A003253CC /* SnakeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakeGame.h; sourceTree = "<group>"; };
+		74B7A39820D04D8A003253CC /* SnakePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnakePart.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +66,23 @@
 		74B7A38920D04D20003253CC /* SnakeGame */ = {
 			isa = PBXGroup;
 			children = (
-				74B7A38A20D04D20003253CC /* main.cpp */,
+				74B7A39220D04D8A003253CC /* src */,
+				74B7A38A20D04D20003253CC /* start.cpp */,
 			);
 			path = SnakeGame;
+			sourceTree = "<group>";
+		};
+		74B7A39220D04D8A003253CC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				74B7A39320D04D8A003253CC /* SnakeGameItem.h */,
+				74B7A39420D04D8A003253CC /* SnakeGame.cpp */,
+				74B7A39520D04D8A003253CC /* SnakePart.cpp */,
+				74B7A39620D04D8A003253CC /* SnakeGameItem.cpp */,
+				74B7A39720D04D8A003253CC /* SnakeGame.h */,
+				74B7A39820D04D8A003253CC /* SnakePart.h */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74B7A38B20D04D20003253CC /* main.cpp in Sources */,
+				74B7A39E20D0F201003253CC /* SnakePart.cpp in Sources */,
+				74B7A39D20D050DA003253CC /* SnakeGameItem.cpp in Sources */,
+				74B7A39C20D04F55003253CC /* SnakeGame.cpp in Sources */,
+				74B7A38B20D04D20003253CC /* start.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
